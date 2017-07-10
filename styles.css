@@ -1,0 +1,229 @@
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+
+
+}
+
+header {
+display: flex;
+
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+background-color: #FFFFFF
+padding: 10px;
+
+
+
+}
+
+
+
+#logo {
+  background-image: url('images/optimized/bent-creek-logo.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+#page-title {
+  text-align: center;
+}
+#page-title h1 {
+  margin: 0;
+
+}
+
+
+
+
+
+#nav {
+  display: flex;
+  margin: 10px auto;
+
+
+}
+
+
+
+#nav li {
+  list-style: none;
+  padding-right: 40px;
+
+}
+#nav :hover {
+    color: #F2F1E8;
+
+}
+
+
+
+
+#nav a {
+  color: black;
+}
+main {
+  background-color: #F2F1E8;
+  padding: 20px;
+}
+
+#image1 {
+  background-image: url('images/optimized/product-1.jpg');
+  width: 60%;
+}
+#image2 {
+  background-image: url('images/optimized/product-2.jpg');
+  width: 20%;
+}
+#image3 {
+  background-image: url('images/optimized/product-3.jpg');
+  width: 20%;
+}
+#image4 {
+  background-image: url('images/optimized/product-4.jpg');
+  width: 20%;
+}
+#image5 {
+  background-image: url('images/optimized/product-5.jpg');
+  width: 20%;
+}
+#image6 {
+  background-image: url('images/optimized/product-6.jpg');
+  width: 40%;
+}
+#image7 {
+  background-image: url('images/optimized/product-7.jpg');
+  width: 20%;
+}
+
+
+#image1, #image2, #image3 {
+  height: 400px;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+}
+
+#image4, #image5, #image6, #image7 {
+  height: 240px;
+  margin: 10px;
+  background-size: cover;
+}
+
+#top-gallery, #bottom-gallery {
+  display: flex;
+  position: relative;
+}
+
+#gallery p {
+  background-color: #2B2F26;
+  position: absolute;
+  bottom: 0;
+  color: #F2F1E8;
+  padding: 10px;
+}
+
+
+
+footer {
+  display: block;
+  background-color: #2B2F26;
+  padding: 20px;
+}
+
+footer  p {
+  margin: 0;
+  color: #F2F1E8;
+}
+img {
+  height: 100px;
+  margin: 10px;
+}
+#page-title2 {
+  text-align: center;
+}
+
+#page-title2 h1 {
+  margin-bottom: 40px;
+  font-size: 50px;
+  padding: 0;
+
+}
+#middle-image {
+  display: flex;
+  position: relative;
+  background-image: url("images/optimized/background-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin: 0;
+
+
+}
+#middle-image p {
+  position: absolute;
+  bottom: 150px;
+  left:500px;
+  color: #F2F1E8;
+  font-size: 40px;
+
+}
+
+#small_logo p {
+  background-position: right;
+}
+
+
+aside {
+  padding-left: 10px;
+  font-style: italic;
+}
+#all, #two {
+  padding-left: 400px;
+  padding-right:400px;
+}
+table {
+
+  border-collapse: collapse;
+
+
+}
+td {
+  border-style: solid;
+
+}
+#image8 {
+  background-image: url("images/optimized/background-2.jpg");
+  background-size: cover;
+  height: 800px;
+
+
+}
+form{
+    background: white;
+    padding: 20px;
+    border-color: 0;
+    width: 500px;
+    margin: 0 auto;
+    border-style: none;
+
+    text-align: left;
+
+
+  }
+form P {
+  text-align: center;
+}
+#submit {
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+@viewport {
+min-width: inherit;
+}
